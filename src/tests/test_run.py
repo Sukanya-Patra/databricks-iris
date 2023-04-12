@@ -38,7 +38,7 @@ def project_context(cfg_loader=config_loader):
         _type_: _description_
     """
     return KedroContext(
-        package_name="databricks-iris",
+        package_name="databricks_iris",
         project_path=Path.cwd(),
         config_loader=cfg_loader,
         hook_manager=_create_hook_manager(),

@@ -1,4 +1,4 @@
-# databricks-iris
+# databricks_iris
 
 ## Overview
 

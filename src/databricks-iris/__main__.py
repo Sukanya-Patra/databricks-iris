@@ -1,5 +1,5 @@
-"""databricks-iris file for ensuring the package is executable
-as `databricks-iris` and `python -m databricks-iris`
+"""databricks_iris file for ensuring the package is executable
+as `databricks_iris` and `python -m databricks_iris`
 """
 import importlib
 from pathlib import Path

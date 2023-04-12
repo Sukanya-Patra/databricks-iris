@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-# databricks-iris documentation build
+# databricks_iris documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,11 +21,11 @@ import re
 
 from kedro.framework.cli.utils import find_stylesheets
 
-from databricks-iris import __version__ as release
+from databricks_iris import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "databricks-iris"
+project = "databricks_iris"
 author = "Kedro"
 
 # The short X.Y version.
@@ -119,7 +119,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "databricks-iris"
+htmlhelp_basename = "databricks_iris"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -147,8 +147,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "databricks-iris.tex",
-        "databricks-iris Documentation",
+        "databricks_iris.tex",
+        "databricks_iris Documentation",
         "Kedro",
         "manual",
     )
@@ -161,8 +161,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "databricks-iris",
-        "databricks-iris Documentation",
+        "databricks_iris",
+        "databricks_iris Documentation",
         [author],
         1,
     )
@@ -176,11 +176,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "databricks-iris",
-        "databricks-iris Documentation",
+        "databricks_iris",
+        "databricks_iris Documentation",
         author,
-        "databricks-iris",
-        "Project databricks-iris codebase.",
+        "databricks_iris",
+        "Project databricks_iris codebase.",
         "Data-Science",
     )
 ]

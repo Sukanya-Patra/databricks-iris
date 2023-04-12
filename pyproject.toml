@@ -1,6 +1,6 @@
 [tool.kedro]
-package_name = "databricks-iris"
-project_name = "databricks-iris"
+package_name = "databricks_iris"
+project_name = "databricks_iris"
 kedro_init_version = "0.18.7"
 project_version = "0.18.7"
 
@@ -10,7 +10,7 @@ profile = "black"
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src/databricks-iris -ra"""
+--cov src/databricks_iris -ra"""
 
 [tool.coverage.report]
 fail_under = 0
@@ -18,13 +18,13 @@ show_missing = true
 exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
 
 [tool.poetry]
-name = "databricks-iris"
+name = "databricks_iris"
 version = "0.1.0"
 description = ""
 authors = ["PLACEHOLDER"]
 readme = "README.md"
 packages = [
-    { include = "databricks-iris", from = "src" },
+    { include = "databricks_iris", from = "src" },
 ]
 
 [tool.poetry.dependencies]

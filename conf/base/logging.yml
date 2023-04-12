@@ -17,7 +17,7 @@ loggers:
   kedro:
     level: INFO
 
-  databricks-iris:
+  databricks_iris:
     level: INFO
 
 root:

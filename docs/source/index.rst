@@ -1,8 +1,8 @@
-.. databricks-iris documentation master file, created by sphinx-quickstart.
+.. databricks_iris documentation master file, created by sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to project databricks-iris's API docs!
+Welcome to project databricks_iris's API docs!
 =============================================
 
 .. toctree::
