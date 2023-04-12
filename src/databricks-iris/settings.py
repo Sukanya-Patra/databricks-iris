@@ -47,8 +47,8 @@ CONFIG_LOADER_ARGS = {
 }
 
 # Instantiated spark and managed table hooks
-# from databricks-iris.hooks import ManagedTableHooks
-# HOOKS = (ManagedTableHooks())
+from databricks-iris.hooks import ManagedTableHooks
+HOOKS = (ManagedTableHooks())
 
 # Installed plugins for which to disable hook auto-registration.
 # DISABLE_HOOKS_FOR_PLUGINS = ("kedro-viz",)
